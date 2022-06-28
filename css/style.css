@@ -28,64 +28,81 @@ a:hover {
   line-height: 52px;
   font-family: "Readex Pro", sans-serif;
 }
-
-h1 {
+@media (max-width: 993px) {
+  .h3_fonts {
+    font-size: 38px;
+  }
+}
+@media (max-width: 769px) {
+  .h3_fonts {
+    font-size: 36px;
+  }
+}
+@media (max-width: 577px) {
+  .h3_fonts {
+    font-size: 29px;
+  }
+}
+@media (max-width: 428px) {
+  .h3_fonts {
+    font-size: 25px;
+  }
+}
+.h3_fonts h1 {
   font-size: 58px;
   line-height: 70px;
   font-family: "Readex Pro", sans-serif;
 }
 @media (max-width: 1200px) {
-  h1 {
+  .h3_fonts h1 {
     font-size: 52px;
   }
 }
 @media (max-width: 993px) {
-  h1 {
+  .h3_fonts h1 {
     font-size: 38px;
     line-height: 42px;
   }
 }
 @media (max-width: 769px) {
-  h1 {
+  .h3_fonts h1 {
     font-size: 30px;
   }
 }
 @media (max-width: 577px) {
-  h1 {
+  .h3_fonts h1 {
     font-size: 21px;
     line-height: 32px;
   }
 }
 @media (max-width: 428px) {
-  h1 {
+  .h3_fonts h1 {
     font-size: 16px;
     line-height: 18px;
   }
 }
-
-.sub_title {
+.h3_fonts .sub_title {
   font-family: "Readex Pro", sans-serif;
   font-size: 14px;
   line-height: 16.8px;
 }
-
-header {
+.h3_fonts header {
   padding: 30px 0;
 }
-header .navbar .navbar-nav {
+.h3_fonts header .navbar .navbar-nav {
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
-header .navbar .navbar-nav a {
+.h3_fonts header .navbar .navbar-nav a {
   transition: 0.11s;
 }
-header .navbar .navbar-nav a:hover {
+.h3_fonts header .navbar .navbar-nav a:hover {
   transform: scale(1.1);
   transition: 0.11s;
 }
-header .navbar .navbar-nav .nav-link-after:after {
+.h3_fonts header .navbar .navbar-nav .nav-link-after:after {
   content: "\f107";
   font-family: "Font Awesome 6 Free", sans-serif;
   font-weight: 900;
@@ -93,50 +110,49 @@ header .navbar .navbar-nav .nav-link-after:after {
   display: flex;
   margin-left: 5px;
 }
-header .nav-search-buy a img {
+.h3_fonts header .nav-search-buy a img {
   transition: 0.11s;
 }
-header .nav-search-buy a img:hover {
+.h3_fonts header .nav-search-buy a img:hover {
   transform: scale(1.11);
   transition: 0.11s;
 }
-
-.main {
+.h3_fonts .main {
   padding: 28px 0 75px;
 }
-.main .main_carousel_page {
+.h3_fonts .main .main_carousel_page {
   background-color: #DCE5E2;
   border-radius: 32px;
 }
-.main .main_carousel_page p {
+.h3_fonts .main .main_carousel_page p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 19px;
 }
 @media (max-width: 993px) {
-  .main .main_carousel_page p {
+  .h3_fonts .main .main_carousel_page p {
     font-size: 14px;
     line-height: 17px;
   }
 }
 @media (max-width: 769px) {
-  .main .main_carousel_page p {
+  .h3_fonts .main .main_carousel_page p {
     font-size: 11px;
     line-height: 13px;
   }
 }
 @media (max-width: 577px) {
-  .main .main_carousel_page p {
+  .h3_fonts .main .main_carousel_page p {
     display: none;
   }
 }
-.main .main_carousel_page .main-carousel_wrap {
+.h3_fonts .main .main_carousel_page .main-carousel_wrap {
   width: 58%;
 }
-.main .main_carousel_page .main-carousel_wrap-text {
+.h3_fonts .main .main_carousel_page .main-carousel_wrap-text {
   width: 52%;
 }
-.main .main_carousel_page a {
+.h3_fonts .main .main_carousel_page a {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 22px;
@@ -145,32 +161,31 @@ header .nav-search-buy a img:hover {
   transition: 0.4s;
 }
 @media (max-width: 993px) {
-  .main .main_carousel_page a {
+  .h3_fonts .main .main_carousel_page a {
     display: block;
     padding: 5px 0;
     max-width: 50%;
   }
 }
 @media (max-width: 577px) {
-  .main .main_carousel_page a {
+  .h3_fonts .main .main_carousel_page a {
     font-size: 10px;
   }
 }
-.main .main_carousel_page a:hover {
+.h3_fonts .main .main_carousel_page a:hover {
   background-color: #b5bdba;
   transition: 0.4s;
 }
 @media (max-width: 428px) {
-  .main .main_carousel_page a {
+  .h3_fonts .main .main_carousel_page a {
     max-width: 80%;
     padding: 3px 0;
   }
 }
-
-.owl-carousel.slide-one .disabled {
+.h3_fonts .owl-carousel.slide-one .disabled {
   display: block;
 }
-.owl-carousel.slide-one .owl-nav .owl-prev:after {
+.h3_fonts .owl-carousel.slide-one .owl-nav .owl-prev:after {
   content: "\f053";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -182,17 +197,17 @@ header .nav-search-buy a img:hover {
   z-index: 3;
 }
 @media (max-width: 577px) {
-  .owl-carousel.slide-one .owl-nav .owl-prev:after {
+  .h3_fonts .owl-carousel.slide-one .owl-nav .owl-prev:after {
     top: 37%;
     left: 2px;
   }
 }
 @media (max-width: 428px) {
-  .owl-carousel.slide-one .owl-nav .owl-prev:after {
+  .h3_fonts .owl-carousel.slide-one .owl-nav .owl-prev:after {
     top: 30%;
   }
 }
-.owl-carousel.slide-one .owl-nav .owl-next:after {
+.h3_fonts .owl-carousel.slide-one .owl-nav .owl-next:after {
   content: "\f054";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -204,17 +219,17 @@ header .nav-search-buy a img:hover {
   z-index: 3;
 }
 @media (max-width: 577px) {
-  .owl-carousel.slide-one .owl-nav .owl-next:after {
+  .h3_fonts .owl-carousel.slide-one .owl-nav .owl-next:after {
     top: 37%;
     right: 2px;
   }
 }
 @media (max-width: 428px) {
-  .owl-carousel.slide-one .owl-nav .owl-next:after {
+  .h3_fonts .owl-carousel.slide-one .owl-nav .owl-next:after {
     top: 30%;
   }
 }
-.owl-carousel.slide-one .owl-dots {
+.h3_fonts .owl-carousel.slide-one .owl-dots {
   display: block;
   position: absolute;
   bottom: 50px;
@@ -222,12 +237,12 @@ header .nav-search-buy a img:hover {
   width: 80%;
 }
 @media (max-width: 1200px) {
-  .owl-carousel.slide-one .owl-dots {
+  .h3_fonts .owl-carousel.slide-one .owl-dots {
     bottom: 5px;
     left: 11%;
   }
 }
-.owl-carousel.slide-one .owl-dots .owl-dot.active span {
+.h3_fonts .owl-carousel.slide-one .owl-dots .owl-dot.active span {
   height: 8px;
   border: 2px solid black;
   background-color: transparent;
@@ -235,179 +250,177 @@ header .nav-search-buy a img:hover {
   border-radius: 20px;
   transition: 0.33s;
 }
-.owl-carousel.slide-one .owl-dots .owl-dot {
+.h3_fonts .owl-carousel.slide-one .owl-dots .owl-dot {
   width: 33%;
 }
-.owl-carousel.slide-one .owl-dots .owl-dot span {
+.h3_fonts .owl-carousel.slide-one .owl-dots .owl-dot span {
   display: block;
   height: 2px;
   background-color: black;
   margin: 0 16px;
   transition: 0.33s;
 }
-
-.latest_offers {
+.h3_fonts .latest_offers {
   padding-bottom: 100px;
 }
-.latest_offers .sub_title {
+.h3_fonts .latest_offers .sub_title {
   max-width: 628px;
 }
-.latest_offers h5 {
+.h3_fonts .latest_offers h5 {
   font-family: "Readex Pro", sans-serif;
   font-size: 32px;
   line-height: 38px;
 }
 @media (max-width: 428px) {
-  .latest_offers h5 {
+  .h3_fonts .latest_offers h5 {
     font-size: 20px;
     line-height: 20px;
   }
 }
-.latest_offers p {
+.h3_fonts .latest_offers p {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
 @media (max-width: 577px) {
-  .latest_offers p {
+  .h3_fonts .latest_offers p {
     font-size: 10px;
     line-height: 12px;
   }
 }
-.latest_offers .h5-laptop {
+.h3_fonts .latest_offers .h5-laptop {
   max-width: 192px;
 }
-.latest_offers .h5-watches {
+.h3_fonts .latest_offers .h5-watches {
   max-width: 128px;
 }
 @media (max-width: 577px) {
-  .latest_offers .h5-watches {
+  .h3_fonts .latest_offers .h5-watches {
     max-width: 200px;
   }
 }
-.latest_offers .h5-phones {
+.h3_fonts .latest_offers .h5-phones {
   max-width: 250px;
 }
-.latest_offers .h5-tab {
+.h3_fonts .latest_offers .h5-tab {
   max-width: 233px;
 }
-.latest_offers .latest_offer_item1 {
+.h3_fonts .latest_offers .latest_offer_item1 {
   max-width: 500px;
 }
-.latest_offers .latest_offer_item2 {
+.h3_fonts .latest_offers .latest_offer_item2 {
   max-width: 381px;
 }
-.latest_offers .latest_offer_item3 {
+.h3_fonts .latest_offers .latest_offer_item3 {
   max-width: 300px;
 }
-.latest_offers .latest_offer_item3 {
+.h3_fonts .latest_offers .latest_offer_item3 {
   max-width: 320px;
 }
-.latest_offers .latest_offer_item3 {
+.h3_fonts .latest_offers .latest_offer_item3 {
   max-width: 312px;
 }
-.latest_offers .watch_position {
+.h3_fonts .latest_offers .watch_position {
   top: 22px;
 }
 @media (max-width: 993px) {
-  .latest_offers .watch_position {
+  .h3_fonts .latest_offers .watch_position {
     position: static;
   }
 }
-.latest_offers .latest_hover {
+.h3_fonts .latest_offers .latest_hover {
   transition: 0.33s;
 }
-.latest_offers .latest_hover:hover {
+.h3_fonts .latest_offers .latest_hover:hover {
   transform: scale(1.04);
   transition: 0.33s;
 }
-
-.best_sellers {
+.h3_fonts .best_sellers {
   padding-bottom: 74px;
 }
-.best_sellers .sub_title {
+.h3_fonts .best_sellers .sub_title {
   font-size: 13px;
 }
-.best_sellers .card:hover {
+.h3_fonts .best_sellers .card:hover {
   background-color: lightgrey;
 }
-.best_sellers .card_img {
+.h3_fonts .best_sellers .card_img {
   max-width: 274px;
 }
-.best_sellers h5 {
+.h3_fonts .best_sellers h5 {
   font-size: 22px;
   line-height: 28px;
   font-family: "Readex Pro", sans-serif;
 }
-.best_sellers h5:hover {
+.h3_fonts .best_sellers h5:hover {
   text-decoration: underline 2px;
   transition: 0.3s;
 }
-.best_sellers p {
+.h3_fonts .best_sellers p {
   font-size: 14px;
   line-height: 17px;
   font-family: "Inter", sans-serif;
 }
-.best_sellers p:last-of-type {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.most_popular {
+.h3_fonts .most_popular {
   padding-bottom: 75px;
 }
-.most_popular h5 {
+.h3_fonts .most_popular h5 {
   font-family: "Readex Pro", sans-serif;
   font-size: 28px;
   line-height: 35px;
 }
-.most_popular p {
+.h3_fonts .most_popular p {
   font-family: "Readex Pro", sans-serif;
   font-size: 14px;
   line-height: 16.8px;
 }
-.most_popular .card {
+.h3_fonts .most_popular .card {
   background: #F8F9FA;
   transition: 0.33s;
 }
-.most_popular .card:hover {
+.h3_fonts .most_popular .card:hover {
   transform: scale(1.1);
   transition: 0.33s;
 }
-.most_popular .popular_arrivals {
+.h3_fonts .most_popular .popular_arrivals {
   max-width: 259px;
 }
-.most_popular .popular_saling {
+.h3_fonts .most_popular .popular_saling {
   max-width: 294px;
 }
-.most_popular .popular_product {
+.h3_fonts .most_popular .popular_product {
   max-width: 355px;
 }
-.most_popular .btn {
+.h3_fonts .most_popular .btn {
   padding: 14px 63px;
   transition: 0.11s;
 }
-.most_popular .btn:hover {
+.h3_fonts .most_popular .btn:hover {
   transform: scale(1.11);
   transition: 0.11s;
 }
-
-.ideas {
+.h3_fonts .ideas {
   padding-bottom: 74px;
 }
-.ideas .row {
+.h3_fonts .ideas .row {
   margin-bottom: 74px;
 }
-.ideas .row .ideas_img {
+.h3_fonts .ideas .row .ideas_img {
   max-width: 620px;
   border-radius: 20px;
 }
-.ideas .row p {
+.h3_fonts .ideas .row p {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   line-height: 30px;
 }
-.ideas a {
+@media (max-width: 577px) {
+  .h3_fonts .ideas .row p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.h3_fonts .ideas a {
   display: inline-block;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -415,7 +428,13 @@ header .nav-search-buy a img:hover {
   text-transform: capitalize;
   transition: 0.33s;
 }
-.ideas a:after {
+@media (max-width: 577px) {
+  .h3_fonts .ideas a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.h3_fonts .ideas a:after {
   content: "";
   display: inline-block;
   width: 18px;
@@ -423,89 +442,116 @@ header .nav-search-buy a img:hover {
   background-image: url("../images/up-right.svg");
   background-size: cover;
 }
-.ideas a:hover {
+.h3_fonts .ideas a:hover {
   transform: scale(1.2);
   transition: 0.33s;
 }
-
-.search {
+.h3_fonts .search {
   padding-bottom: 19px;
 }
-.search .form-control:focus {
+.h3_fonts .search .form-control:focus {
   border-color: #C5C5C5;
   box-shadow: none;
 }
-.search .input-group {
+.h3_fonts .search .input-group {
   height: 60px;
 }
-.search button {
+@media (max-width: 769px) {
+  .h3_fonts .search .input-group {
+    font-size: 12px;
+  }
+}
+.h3_fonts .search button {
   border-radius: 100px 0 0 100px;
   border: 1px solid #C5C5C5;
   border-right: none;
   background-color: #F8F9FA;
 }
-.search button:hover img {
+.h3_fonts .search button:hover img {
   transform: scale(1.3);
 }
-.search input {
+.h3_fonts .search input {
   border-radius: 0 100px 100px 0;
   border: 1px solid #C5C5C5;
   background-color: #F8F9FA;
   border-left: none;
   font-family: "Inter", sans-serif;
 }
-.search .chapter a {
+.h3_fonts .search .chapter a {
   margin-right: 5px;
   padding: 12px 22px;
   font-family: "Inter", sans-serif;
   font-size: 14px;
 }
-.search .email_search {
+@media (max-width: 993px) {
+  .h3_fonts .search .chapter a {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
+@media (max-width: 577px) {
+  .h3_fonts .search .chapter a {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 7px 12px;
+  }
+}
+.h3_fonts .search .email_search {
   background-color: #DCE5E2;
   border-radius: 16px;
 }
-.search .email_search input {
+.h3_fonts .search .email_search input {
   border: 1px solid black;
   border-radius: 54px 0 0 54px;
   border-right: none;
 }
-.search .email_search input:active {
+@media (max-width: 769px) {
+  .h3_fonts .search .email_search input {
+    font-size: 12px;
+  }
+}
+.h3_fonts .search .email_search input:active {
   text-decoration: none;
   border: none;
 }
-.search .email_search button {
+.h3_fonts .search .email_search button {
   border: none;
   border-radius: 0 200px 200px 0;
   padding: 16px 33px;
 }
-
-footer {
+@media (max-width: 769px) {
+  .h3_fonts .search .email_search button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+.h3_fonts footer {
   background-color: #F8F9FA;
 }
-footer p {
+.h3_fonts footer p {
   font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 17px;
 }
-footer a:hover {
+.h3_fonts footer a:hover {
   text-decoration: underline 2px black;
 }
-footer .logo_footer p {
+.h3_fonts footer .logo_footer p {
   font-size: 16px;
   line-height: 19.2px;
 }
-footer .logo_footer a {
+.h3_fonts footer .logo_footer a {
   display: inline-block;
 }
-footer .logo_footer a:hover {
+.h3_fonts footer .logo_footer a:hover {
   transform: scale(1.1);
 }
-footer h6 {
+.h3_fonts footer h6 {
   font-family: "Readex Pro", sans-serif;
   font-size: 22px;
   line-height: 22px;
 }
-footer hr {
+.h3_fonts footer hr {
   background-color: #DCE5E2;
 }
 
