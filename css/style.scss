@@ -73,16 +73,7 @@ a {
   @include _lg {
     font-size: 38px;
   }
-  @include _md {
-    font-size: 36px;
-  }
-  @include _sm {
-    font-size: 29px;
-  }
-  @include _xs {
-    font-size: 25px;
 
-  }
 }
 
 h1 {
@@ -627,7 +618,7 @@ header {
 footer {
   background-color: #F8F9FA;
 
-  p {
+  li {
     font-family: $inter;
     font-size: 17px;
     line-height: 17px;
@@ -643,6 +634,7 @@ footer {
     p {
       font-size: 16px;
       line-height: 19.2px;
+
     }
 
     a {
@@ -658,6 +650,10 @@ footer {
     font-family: $readex;
     font-size: 22px;
     line-height: 22px;
+    @include _lg{
+      font-size: 17px;
+      font-weight: bolder;
+    }
   }
 
   hr {

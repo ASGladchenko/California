@@ -33,21 +33,6 @@ a:hover {
     font-size: 38px;
   }
 }
-@media (max-width: 769px) {
-  .h3_fonts {
-    font-size: 36px;
-  }
-}
-@media (max-width: 577px) {
-  .h3_fonts {
-    font-size: 29px;
-  }
-}
-@media (max-width: 428px) {
-  .h3_fonts {
-    font-size: 25px;
-  }
-}
 
 h1 {
   font-size: 58px;
@@ -539,7 +524,7 @@ header .nav-search-buy a img:hover {
 footer {
   background-color: #F8F9FA;
 }
-footer p {
+footer li {
   font-family: "Inter", sans-serif;
   font-size: 17px;
   line-height: 17px;
@@ -561,6 +546,12 @@ footer h6 {
   font-family: "Readex Pro", sans-serif;
   font-size: 22px;
   line-height: 22px;
+}
+@media (max-width: 993px) {
+  footer h6 {
+    font-size: 17px;
+    font-weight: bolder;
+  }
 }
 footer hr {
   background-color: #DCE5E2;
