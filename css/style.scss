@@ -2,13 +2,18 @@
 @import "owl.theme.default.min.css";
 @import "bootstrap.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap');
-
+$xxl: 1400px;
 $xl: 1200px;
 $lg: 993px;
 $md: 769px;
 $sm: 577px;
 $xs: 428px;
 
+@mixin _xl {
+  @media(screen and max-width: $xxl) {
+    @content
+  }
+}
 @mixin _xl {
   @media(screen and max-width: $xl) {
     @content
@@ -80,15 +85,19 @@ h1 {
   font-size: 58px;
   line-height: 70px;
   font-family: $readex;
+
   @include _xl {
-    font-size: 52px;
+    font-size: 48px;
+    line-height: 55px;
+
   }
   @include _lg {
-    font-size: 38px;
+    font-size: 36px;
+    font-weight: bold;
     line-height: 42px;
   }
   @include _md {
-    font-size: 30px;
+    font-size: 27px;
   }
   @include _sm {
     font-size: 21px;
@@ -170,22 +179,22 @@ header {
         font-size: 14px;
         line-height: 17px;
       }
-      @include _md {
-        font-size: 11px;
-        line-height: 13px;
-      }
-      @include _sm {
-        display: none;
+      @include _md{
+        font-size: 12px;
       }
 
     }
 
     .main-carousel_wrap {
-      width: 58%;
+      width: 52%;
+
     }
 
     .main-carousel_wrap-text {
-      width: 52%;
+      width: 47%;
+
+
+
     }
 
     a {
@@ -196,9 +205,9 @@ header {
       background-color: transparent;
       transition: 0.4s;
       @include _lg {
-        display: block;
+
         padding: 5px 0;
-        max-width: 50%;
+
       }
       @include _sm {
         font-size: 10px;
@@ -210,8 +219,7 @@ header {
       }
 
       @include _xs {
-        max-width: 80%;
-        padding: 3px 0;
+
       }
     }
   }
@@ -236,11 +244,11 @@ header {
         z-index: 3;
 
         @include _sm {
-          top: 37%;
+          top: 45%;
           left: 2px;
         }
         @include _xs {
-          top: 30%;
+          top: 45%;
         }
       }
     }
@@ -258,11 +266,11 @@ header {
         z-index: 3;
 
         @include _sm {
-          top: 37%;
+          top: 45%;
           right: 2px;
         }
         @include _xs {
-          top: 30%;
+          top: 45%;
         }
       }
     }
@@ -271,11 +279,11 @@ header {
   .owl-dots {
     display: block;
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 10%;
     width: 80%;
     @include _xl {
-      bottom: 5px;
+      bottom: 0px;
       left: 11%;
     }
 
@@ -285,9 +293,11 @@ header {
         height: 8px;
         border: 2px solid black;
         background-color: transparent;
-        margin-bottom: -3px;
+        margin-bottom: 3px;
         border-radius: 20px;
         transition: .33s;
+        position: relative;
+        bottom: -7px;
       }
     }
 
