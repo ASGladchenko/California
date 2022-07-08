@@ -437,6 +437,9 @@ header .nav-search-buy a img:hover {
 .search .input-group {
   height: 60px;
 }
+.search .input-group .form-control:focus {
+  background-color: #F8F9FA;
+}
 @media (max-width: 769px) {
   .search .input-group {
     font-size: 12px;

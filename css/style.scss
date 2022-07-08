@@ -555,9 +555,11 @@ header {
   }
 
   .input-group {
+    .form-control:focus{
+      background-color: #F8F9FA;
+    }
     height: 60px;
     @include _md {
-
       font-size: 12px;
     }
   }
