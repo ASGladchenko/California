@@ -361,6 +361,11 @@ header .nav-search-buy a img:hover {
   transform: scale(1.1);
   transition: 0.33s;
 }
+@media (max-width: 1200px) {
+  .most_popular .card:hover {
+    transform: scale(1.03);
+  }
+}
 .most_popular .popular_arrivals {
   max-width: 259px;
 }
